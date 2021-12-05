@@ -80,7 +80,7 @@ int main() {
         resize(a1, a1, Size(512, 512));//放大以展示
         cv::imshow("material a1-" + std::to_string(5 - i), a1);//重建圖
 
-        material_layer.push_back(a1);
+        material_layer.push_back(d0);
     }
 
     //融合圖片
